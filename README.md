@@ -1,7 +1,7 @@
 # CodeKitchen-Building-Logic-from-Starters-to-Structures-DSA-
 
 <p align="center">
-  <img src="assets/codekitchen.png" alt="CodeKitchen" width="100%" height="30%">
+  <img src="assets/codekitchen.png" alt="CodeKitchen" width="100%" height="250">
 </p>
 
 
