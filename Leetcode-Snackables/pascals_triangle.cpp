@@ -16,34 +16,28 @@ Why it's a Snack?
    sum of two numbers from the previous row.
 3. Keep building rows one by one.
 
+ Logic
+   - First and last element → 1
+   - Middle elements → sum of previous row's
+     (j-1) and (j)
+
 Think of it like stacking numbers like a triangle
 where each number depends on the two above it.
 
 -------------------------------------------
 Example:
-Input: 4
-
+Input: numRows = 4
 Output:
-1
-1 1
-1 2 1
-1 3 3 1
+[
+ [1],
+ [1,1],
+ [1,2,1],
+ [1,3,3,1]
+]
 
 -------------------------------------------
 Time Complexity: O(n²)
 Space Complexity: O(n²)
-===========================================
-*/
-/*
-===========================================
-🍪 LeetCode Snackable #1
-Problem: Pascal's Triangle
-Difficulty: Easy
-Category: Pattern Building
-
-🧠 Idea:
-- First and last element of every row is 1
-- Middle elements = sum of two numbers above
 ===========================================
 */
 
