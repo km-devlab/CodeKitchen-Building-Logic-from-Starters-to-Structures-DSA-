@@ -1,7 +1,6 @@
 /*
 =========================================================
-🍿 LEETCODE SNACKABLES
-Problem: Convert Number to Words (0–9999)
+🍿 Problem: Convert Number to Words (0–9999)
 Difficulty: Easy–Medium
 Concepts Used:
 - Division & Modulo
