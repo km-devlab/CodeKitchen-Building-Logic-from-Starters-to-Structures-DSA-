@@ -82,19 +82,19 @@ int main()
         switch(toupper(move))
         {
             case 'W':
-                newX--;
+                newX--; //UP
                 break;
 
             case 'S':
-                newX++;
+                newX++;  //DOWN
                 break;
 
             case 'A':
-                newY--;
+                newY--;  //LEFT
                 break;
 
             case 'D':
-                newY++;
+                newY++; //RIGHT
                 break;
         }
 
